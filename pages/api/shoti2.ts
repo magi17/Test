@@ -17,8 +17,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     // Return the extracted data as JSON
     return res.status(200).json({ status: 200, name, description, url });
-  } catch (e) {
-    // Handle errors and return a 500 status
-    return res.status(500).json({ error: e.message });
+  } catch (error) {
+    console.error(error); // Log the error for debugging
+    // Handle errors
+    res.status(500).json({ error: "Failed to read or parse the JSON file" });
   }
 }
