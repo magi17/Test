@@ -12,6 +12,7 @@
     "@cloudflare/next-on-pages": "^1.13.7",
     "@google/generative-ai": "^0.22.0",
     "axios": "^1.7.9",
+    "express": "^4.21.2",
     "next": "15.1.6",
     "nextjs": "^0.0.3",
     "react": "^19.0.0",
