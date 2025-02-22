@@ -13,15 +13,18 @@
     "@google/generative-ai": "^0.22.0",
     "axios": "^1.7.9",
     "express": "^4.21.2",
+    "glob": "^11.0.1",
     "next": "15.1.6",
     "nextjs": "^0.0.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.21.0",
     "typescript": "^5"
   },
   "engines": {
